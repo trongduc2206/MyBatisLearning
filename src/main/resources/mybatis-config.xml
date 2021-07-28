@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--    <typeAliases>-->
+<!--        <typeAlias alias = "class_alias_Name" type = "absolute_clas_Name"/>-->
+<!--    </typeAliases>-->
+
+<!--    <environments default = "default_environment _name">-->
+<!--        <environment id = "environment_id">-->
+<!--            <transactionManager type = "JDBC/MANAGED"/>-->
+
+<!--&lt;!&ndash;            <dataSource type = "UNPOOLED/POOLED/JNDI">&ndash;&gt;-->
+<!--&lt;!&ndash;                <property name = "driver" value = "database_driver_class_name"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <property name = "url" value = "database_url"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <property name = "username" value = "database_user_name"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <property name = "password" value = "database_password"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </dataSource>&ndash;&gt;-->
+
+<!--        </environment>-->
+<!--    </environments>-->
+
+<!--    <mappers>-->
+<!--        <mapper resource = "path of the configuration XML file"/>-->
+<!--    </mappers>-->
+
+</configuration>

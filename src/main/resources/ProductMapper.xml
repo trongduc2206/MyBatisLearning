@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.learning.mybatis.mapper.ProductMapper" >
+    <!--<cache />-->
+    <resultMap id="baseResultMap" type="com.learning.mybatis.entity.Product" >
+<!--        <id column="ProductId" property="productId" jdbcType="INTEGER" />-->
+        <result column="Product_desc" property="productDesc" jdbcType="VARCHAR" />
+<!--        <result column="Cost" property="cost" jdbcType="INTEGER" />-->
+<!--        <result column="Weight" property="weight" jdbcType="INTEGER" />-->
+<!--        <result column="Numb" property="numb" jdbcType="INTEGER" />-->
+    </resultMap>
+
+<!--    <select id="getAllProduct" resultMap="baseResultMap">-->
+<!--        select * from products-->
+<!--    </select>-->
+</mapper>
